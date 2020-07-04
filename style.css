@@ -1,0 +1,85 @@
+html, body{
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(73, 40, 134);
+}
+main{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+}
+.word{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 60vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.word_area{
+    width: 70vw;
+    height: 40vh;
+    border: 3px solid black;
+}
+.keyboard{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 40vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: salmon;
+}
+.line-1, .line-2, .line-3, .line-4, .line-5 {
+    height: 7vh;
+    width: 70vw;
+    display: flex;
+    margin: 0 1vw 0 1vw;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: red;
+}
+span{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2vw;
+    width: 3vw;
+    margin: 0 1vw 0 1vw;
+    height: 7vh;
+    background-color: royalblue;
+}
+input{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2vw;
+    width: 3vw;
+    margin: 0 1vw 0 1vw;
+    height: 7vh;
+    background-color: royalblue;
+    outline: none;
+}
+p{
+    color: whitesmoke;
+    font-size: 1vw;
+    line-height: 2vw;
+    padding: 1.5vw;
+}
